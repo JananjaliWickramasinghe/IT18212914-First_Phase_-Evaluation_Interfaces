@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Login">
+  
+     <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="127dp"
+         app:srcCompat="@drawable/logo"/>
+    <EditText
+        android:layout_width="325dp"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_edit_text_bg"
+        android:hint="@string/type"
+        android:text="UserType"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="325dp"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_edit_text_bg"
+        android:hint="@string/username"
+        android:text="Username"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_width="325dp"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_edit_text_bg"
+        android:hint="@string/password"
+        android:text="Password"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:background="#2196F3"
+        android:text="@string/login"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:background="#2196F3"
+            android:text="@string/not_registered" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:background="#2196F3"
+            android:text="@string/register" />
+    </LinearLayout>
+
+</LinearLayout>

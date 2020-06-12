@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <EditText
+        android:layout_width="325dp"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_edit_text_bg"
+        android:hint="@string/fistname"
+        android:text="Enter First Name"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="325dp"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_edit_text_bg"
+        android:hint="@string/lastname"
+        android:text="Enter Last Name"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="325dp"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_edit_text_bg"
+        android:hint="@string/e_mail"
+        android:text="Enter Your Email"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="325dp"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_edit_text_bg"
+        android:hint="@string/username"
+        android:text="Enter Username"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="325dp"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_edit_text_bg"
+        android:hint="@string/password"
+        android:text="Enter Password"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="325dp"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_edit_text_bg"
+        android:hint="@string/confpassword"
+        android:text="Confirm Password"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:background="#2196F3"
+        android:text="@string/reg"/>
+
+</LinearLayout>

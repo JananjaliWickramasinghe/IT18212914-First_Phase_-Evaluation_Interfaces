@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyMusic</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="type">Type</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="register">REGISTER</string>
+    <string name="fistname">FistName</string>
+    <string name="lastname">LastName</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="confpassword">ConfPassword</string>
+    <string name="reg">Register</string>
+
+</resources>
